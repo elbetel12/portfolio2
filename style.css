@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&family=Roboto:wght@400;500&display=swap');
+
+:root {
+    --main-color: #b6cbce;
+    --color-heading: white;
+    --color-base: #031147;
+    --color-base1: #020730;
+    --color-brand: hsl(50, 80%, 71%);
+    --color-brand2: #ffbc58;
+    --sidbar-width: 240px;
+    --font-base: "Bai Jamjuree";
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+body{
+    background-color:#031147;
+    --color:var(--main-color);
+    font-family:sans-serif;
+}
+h1,h2,h3,h4,h5,h6
+{
+    color:var(--color-heading);
+    font-weight:700 ;
+}
+a {
+text-decoration: none;
+color:var(--main-color);
+transition: all 0.4s ease;
+padding-left: 50px;
+ 
+}
+a:hover{
+    color:var(--color-brand);
+}
+img{
+    width: 100%;
+
+}
+.navbar {
+    background-color: var(----color-base1);
+
+}
+
+.navbar .nav-link {
+    font-weight: 1000;
+    text-transform: uppercase;
+    color:whitesmoke;
+    font-size: 15px;
+}
+.links{
+    padding-right:  80px;
+
+}
+
+    .navbar .nav-link:hover {
+        color: var(--color-brand);
+    }
+    
+    .navbar .nav-link.active {
+        color: var(--color-brand);
+    }
+    .navbar-brand img {
+        border: 8px solid var(--color-brand);
+    }
+/*home contents*/
+#home-content{
+    padding-left:var(--sidbar-width);
+}
+.content{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    border-bottom: 2px solid rgba(255,255,255, 0.1);
+}
+.content p{
+    font-size: 1.6rem;
+    color:whitesmoke;
+}
+
+
+  
+  .fa:hover {
+      opacity: 0.7;
+      color:azure;
+      box-shadow: 0 0 1rem aquamarine;
+      background:aquamarine;
+  }
+  .fa {
+    display:inline-flex;
+justify-content: center;
+    padding: 20px;
+    font-size: 2rem;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    transition: .5s ease;
+    color: aquamarine;
+  }
+ .home h3{
+font-size: 3.2rem;
+font-weight: 700;
+ }
+  .home h3:nth-of-type(2){
+
+    margin-bottom: 2rem;
+  }
+  h1 span{
+    color: aquamarine;
+  }
+ .btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background:aquamarine ;
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem aquamarine;
+    font-size: 1.6rem;
+    color:#031147;
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease;
+ }  
+ .btn:hover{
+    box-shadow: none;
+    color:#b6cbce;
+ }
+  .about{
+    justify-content: left;
+    gap:2rem;
+    color: white;
+  }
+  .about-content p{
+ margin:2rem 0 3rem;
+ color:aliceblue;
+ font-size: 800px;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }
+  .img{
+    filter:grayscale(1);
+
+}
+.img-hero{
+    height:auto;
+}
+.spacing{
+    margin-top: 10%;
+}
+.card-icon{
+    font-size:3rem ;
+}
+.par{
+    font-size: xx-large;
+    color: white;
+    margin-top: 30px;
+}
+.row{
+  margin-top: 30px;
+ 
+}
+.skills h1{
+padding-left: 30px;
+margin-bottom: 30px;
+}
+.skills{
+  display:block;
+}
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+ 
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  .contact{
+    margin-top: 30px;
+    display: block;
+  }
+  .contact label{
+    font-size: medium;
+    color:aquamarine
+  }
+  .service h4{
+color:black;
+  }
+  .skills h1{
+    align-items:center;
+  }
